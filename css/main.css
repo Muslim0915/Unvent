@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'UniNeueRegular';
+  src: url("../fonts/UniNeueRegular.ttf"); }
+@font-face {
+  font-family: 'UniNeueBold';
+  src: url("../fonts/UniNeueBold.ttf"); }
+@font-face {
+  font-family: 'UniNeueThin';
+  src: url("../fonts/UniNeueThin.ttf"); }
+@font-face {
+  font-family: 'UniNeueHeavy';
+  src: url("../fonts/UniNeueHeavy.ttf"); }
+header .head, header .head .logo, header .head .map, header .head .contacts .social, header .navbar .nav-menu, header .short-info, header .short-info .first-box, header .header_footer, header .header_footer .header_price button, header .header_footer .header_carousel .carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+body {
+  margin: 0; }
+
+.container {
+  max-width: 1570px;
+  margin: 0 auto; }
+
+header {
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative; }
+  header .menu-btn {
+    display: none; }
+  header .head {
+    padding-top: 36px;
+    flex-wrap: wrap;
+    position: relative; }
+    header .head .logo {
+      justify-content: flex-start;
+      width: 30%; }
+      header .head .logo .description {
+        width: 56%;
+        font-family: "UniNeueRegular";
+        font-size: 16px;
+        line-height: 24px; }
+    header .head .map a {
+      display: flex;
+      justify-content: flex-end;
+      text-decoration: none;
+      color: #000; }
+    header .head .map span {
+      width: 50%; }
+    header .head .btn button {
+      background-color: #313D4B;
+      width: 245px;
+      height: 75px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      color: #fff;
+      font-family: "UniNeueBold"; }
+    header .head .contacts span {
+      display: block;
+      font-size: 21px;
+      font-family: "UniNeueHeavy";
+      color: #000;
+      font-weight: bold;
+      margin-bottom: 10px;
+      line-height: 24px; }
+  header .navbar .nav-menu {
+    padding-left: 0;
+    margin-top: 36px;
+    overflow-x: scroll; }
+    header .navbar .nav-menu::-webkit-scrollbar {
+      display: none; }
+    header .navbar .nav-menu::-ms-scrollbar {
+      display: none; }
+    header .navbar .nav-menu .nav-item {
+      list-style: none;
+      margin-left: 30px;
+      flex-shrink: 0; }
+      header .navbar .nav-menu .nav-item:first-child {
+        margin-left: 0; }
+    header .navbar .nav-menu .nav-link {
+      color: #000;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: "UniNeueBold";
+      font-size: 18px;
+      opacity: 0.7;
+      transition: 0.33s linear; }
+      header .navbar .nav-menu .nav-link:hover {
+        opacity: 1; }
+  header .title {
+    width: 55%;
+    font-size: 56px;
+    margin-top: 83px;
+    line-height: 67px;
+    font-family: "UniNeueHeavy";
+    letter-spacing: 1.5px; }
+    header .title span {
+      font-family: "UniNeueRegular" !important;
+      font-weight: normal !important; }
+  header .short-info {
+    align-items: flex-start;
+    margin-top: 70px;
+    width: 55.7%; }
+    header .short-info .info-box {
+      position: relative;
+      margin-left: 21px; }
+      header .short-info .info-box::before {
+        content: '';
+        position: absolute;
+        height: 5px;
+        background-color: #f00;
+        width: 25px;
+        transform: rotate(-45deg);
+        left: -21px;
+        top: 2px; }
+      header .short-info .info-box .content {
+        font-size: 18px;
+        line-height: 26px;
+        font-family: "UniNeueBold"; }
+    header .short-info .first-box {
+      width: 35%; }
+      header .short-info .first-box .title {
+        margin-top: 0;
+        font-size: 75px;
+        margin-right: 7px; }
+    header .short-info .second-box {
+      width: 22.5%; }
+      header .short-info .second-box::before {
+        left: -33px;
+        top: 3px; }
+    header .short-info .third-box {
+      width: 24%;
+      line-height: 25px;
+      padding-left: 9px;
+      box-sizing: border-box; }
+    header .short-info span {
+      font-family: "UniNeueRegular" !important;
+      font-weight: normal !important; }
+  header .header_footer {
+    align-items: flex-start;
+    width: 58%; }
+    header .header_footer .header_price {
+      width: 47%;
+      display: flex;
+      flex-direction: column; }
+      header .header_footer .header_price .title {
+        font-size: 15.6px;
+        line-height: 25px;
+        font-family: "UniNeueBold";
+        margin-bottom: 31px;
+        margin-top: 50px;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box; }
+      header .header_footer .header_price button {
+        justify-content: space-around;
+        width: 100%;
+        height: 98px;
+        padding-left: 16px;
+        box-sizing: border-box;
+        background-color: #56BD5C;
+        color: #fff;
+        text-align: left;
+        border: none;
+        cursor: pointer;
+        transition: 00.33s linear; }
+        header .header_footer .header_price button:hover {
+          color: #000; }
+        header .header_footer .header_price button span {
+          font-size: 23px;
+          line-height: 29px;
+          display: block;
+          width: 74%; }
+    header .header_footer .header_carousel {
+      width: 41%; }
+      header .header_footer .header_carousel .title {
+        margin: 88px 0 21px 0;
+        font-size: 16px;
+        line-height: 20px;
+        width: 100%; }
+      header .header_footer .header_carousel .carousel {
+        position: relative;
+        align-items: flex-start;
+        width: 79%; }
+        header .header_footer .header_carousel .carousel .certificate {
+          margin-right: 14px;
+          cursor: pointer; }
+          header .header_footer .header_carousel .carousel .certificate:last-child {
+            margin-right: 0; }
+        header .header_footer .header_carousel .carousel .next, header .header_footer .header_carousel .carousel .prev {
+          background-image: url("../images/next.png");
+          background-repeat: no-repeat;
+          background-position: center center;
+          border: none;
+          background-color: transparent;
+          cursor: pointer;
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          top: 22px;
+          right: -45px; }
+        header .header_footer .header_carousel .carousel .prev {
+          left: -52px;
+          top: 23px;
+          transform: rotate(180deg); }
+  header .header_burger {
+    display: none; }
+
+@media (max-width: 1280px) {
+  .container {
+    width: 100%;
+    padding: 0 30px;
+    box-sizing: border-box; }
+
+  header {
+    background-position: 65% center; }
+    header .head .logo {
+      width: 38%; }
+    header .head .map {
+      width: 19%; }
+    header .head .btn button {
+      width: 90%;
+      font-size: 15px; }
+    header .short-info {
+      width: 61%; }
+    header .header_footer {
+      width: 71%;
+      align-items: center; }
+      header .header_footer .header_price {
+        width: 47%; }
+        header .header_footer .header_price button {
+          height: 98px;
+          margin-left: 16px; }
+      header .header_footer .header_carousel .carousel .next {
+        right: -52px; } }
+
+/*# sourceMappingURL=main.css.map */

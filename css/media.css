@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box; }
+
+  header .head {
+    align-items: flex-start; }
+    header .head .logo, header .head .map, header .head .btn {
+      margin-bottom: 20px; }
+    header .head .logo .description {
+      padding-left: 20px; }
+    header .head .logo, header .head .map {
+      width: 50%; }
+    header .head .map {
+      justify-content: flex-end;
+      align-items: center; }
+      header .head .map a {
+        justify-content: center; }
+    header .head .btn button {
+      width: 100%; }
+  header nav ul {
+    display: none; }
+  header nav .header_burger {
+    display: block; }
+  header header .short-info .first-box {
+    flex-direction: column; }
+  header header .title {
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 67px;
+    font-family: "UniNeueHeavy";
+    letter-spacing: 1.5px; } }
+
+/*# sourceMappingURL=media.css.map */
